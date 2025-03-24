@@ -180,7 +180,7 @@ describe("Central de Atendimento ao Cliente TAT", () => {
     cy.get('a[href="privacy.html"]').invoke('removeAttr', 'target')
   });
 
-  it.only("Testa a página da política de privacidade de forma independente", () => {
+  it("Testa a página da política de privacidade de forma independente", () => {
     cy.get('a[href="privacy.html"]').click()
   });
 });
